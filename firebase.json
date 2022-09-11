@@ -13,7 +13,7 @@
     "predeploy": "npm --prefix \"$RESOURCE_DIR\" run build"
   },
   "hosting": {
-    "public": "dist",
+    "public": "dist/my-cdn",
     "ignore": [
       "firebase.json",
       "**/.*",
